@@ -1,0 +1,15 @@
+# Inicializa a variável soma
+soma = 0
+
+# Laço while para somar os números inseridos pelo usuário
+while True:
+    numero = float(input("Digite um número (ou 0 para sair): "))
+    
+    if numero == 0:
+        break  # Sai do laço se o usuário digitar zero
+    
+    soma += numero  # Adiciona o número à soma
+
+# Exibe o resultado
+print("A soma dos números digitados é:", soma)
+
