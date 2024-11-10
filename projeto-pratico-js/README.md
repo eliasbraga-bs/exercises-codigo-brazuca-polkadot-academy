@@ -1,3 +1,5 @@
+readme_content = """
+
 # Simulador de Preço de Gás - Polkadot
 
 Este projeto é um simulador de preço de gás baseado na blockchain Polkadot. Ele permite que o usuário insira um valor de transação em DOT, selecione a complexidade da transação e converta o custo para outras moedas.
